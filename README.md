@@ -5,7 +5,7 @@ miniDAQ is a race data acquisition device based on a teensy 3.2 / 3.6
 to learn more about [Kalman filter](http://bilgin.esme.org/BitsAndBytes/KalmanFilterforDummies). [How kalman filter Works](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/).
 
 <img alt="Kalman" width=350 src="https://www.bzarg.com/wp-content/uploads/2015/08/kalflow.png" /></a>
-![alt text](https://i2.wp.com/robotsforroboticists.com/wordpress/wp-content/uploads/2014/01/kalmanEquationFlow.png?w=457 "Kalman") 
+![alt text](https://github.com/SasaKuruppuarachchi/miniDAQ/blob/main/misc/Kalman.png "Kalman") 
 
 
 ### Component list
