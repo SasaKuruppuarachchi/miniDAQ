@@ -205,7 +205,7 @@ class Kalman {
     // P = P - KP
     double Ps[2][2];
     Matrix.Multiply((double*)K, (double*)P, 2, 2, 2, (double*)Ps);
-    Matrix.Subtract((double*) P, (double*) Ps, 2, 1, (double*) P);
+    Matrix.Subtract((double*) P, (double*) Ps, 2, 2, (double*) P);
 
     
 
