@@ -202,10 +202,10 @@ class Kalman {
     Matrix.Multiply((double*)K, (double*)z, 2, 2, 1, (double*)zi);
     Matrix.Add((double*) currentState, (double*) zi, 2, 1, (double*) currentState);
 
-    // P = P + KP
+    // P = P - KP
     double Ps[2][2];
     Matrix.Multiply((double*)K, (double*)P, 2, 2, 2, (double*)Ps);
-    Matrix.Add((double*) P, (double*) Ps, 2, 1, (double*) P);
+    Matrix.Subtract((double*) P, (double*) Ps, 2, 1, (double*) P);
 
     
 
